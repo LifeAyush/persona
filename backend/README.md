@@ -1,4 +1,4 @@
-# persona_backend
+# persona API
 
 Live ride prices for one route across Ola, Rapido, and Namma Yatri.
 
@@ -15,11 +15,11 @@ Arun Singh built the Rapido scraper, the compiled fare response, CORS, and the d
 
 ### Setup
 
-1. Clone the repository:
+1. Clone the repository and enter this folder:
 
    ```bash
-   git clone https://github.com/LifeAyush/persona_backend.git
-   cd persona_backend
+   git clone https://github.com/LifeAyush/persona.git
+   cd persona/backend
    ```
 
 2. Create and activate a virtual environment:
@@ -54,6 +54,8 @@ Arun Singh built the Rapido scraper, the compiled fare response, CORS, and the d
 
 `POST /api/v1/get_fares` takes the route and returns the fares.
 
+The screen for this API is in [`../frontend`](../frontend).
+
 ## License
 
-MIT
+MIT, see [LICENSE](../LICENSE).
