@@ -26,8 +26,11 @@ const FareEstimate = ({ fare, isLoading }: FareEstimateProps) => {
     <Card className="mt-6 animate-fade-in">
       <CardContent className="p-6">
         <div className="text-center">
-          <h3 className="text-lg font-semibold text-gray-900 mb-2">Estimated Fare</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-2">Placeholder Fare</h3>
           <p className="text-3xl font-bold text-indigo-600">${fare.toFixed(2)}</p>
+          <p className="mt-2 text-sm text-gray-500">
+            Not a real price. This screen is not connected to the fare API yet.
+          </p>
         </div>
       </CardContent>
     </Card>
